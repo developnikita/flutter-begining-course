@@ -1,20 +1,28 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
-));
+      home: Home(),
+    ));
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:  AppBar(
+      appBar: AppBar(
         title: Text("My First App"),
         centerTitle: true,
         backgroundColor: Colors.green[200],
       ),
       body: Center(
-        child: Image.asset("assets/green1.png"),
+        child: IconButton(
+          onPressed: () {
+            print("You clicked me");
+          },
+          icon: Icon(
+            Icons.alternate_email
+          ),
+          color: Colors.green,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
