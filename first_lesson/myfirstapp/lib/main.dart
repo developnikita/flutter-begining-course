@@ -14,16 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[200],
       ),
       body: Center(
-        child: Text(
-          "Hello Nikita!",
-          style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey[600],
-              fontFamily: "IndieFlower"
-          ),
-        ),
+        child: Image.asset("assets/green1.png"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
