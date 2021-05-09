@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494291768860",
+    "project_id": "brew-crew-learn-app",
+    "storage_bucket": "brew-crew-learn-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494291768860:android:bc7e6ea8836c4516ad31d9",
+        "android_client_info": {
+          "package_name": "com.secondlesson.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494291768860-t62mjq31rssgntl7l524p2ckrcj54v4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIr-f6adCTPmXiazcHaHeDxQxhVDHBEus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494291768860-t62mjq31rssgntl7l524p2ckrcj54v4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
