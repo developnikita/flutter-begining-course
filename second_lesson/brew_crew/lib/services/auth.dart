@@ -9,6 +9,12 @@ class AuthService {
     return firebaseUser != null ? model.User(uid: firebaseUser.uid) : null;
   }
 
+  // auth change user stream
+  Stream<model.User> get user {
+    return _auth.authStateChanges()
+      .map(_userFromFirebaseUser);
+  }
+
   // sign in anon
   Future signInAnon() async {
     try {
