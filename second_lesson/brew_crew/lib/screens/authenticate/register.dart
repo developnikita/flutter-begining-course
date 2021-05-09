@@ -61,7 +61,7 @@ class _RegisterState extends State<Register> {
               SizedBox(height: 20.0,),
               TextFormField(
                 obscureText: true,
-                onChanged: ( val) {
+                onChanged: (val) {
                   setState(() {
                     password = val;
                   });
@@ -100,7 +100,7 @@ class _RegisterState extends State<Register> {
                 style: TextStyle(
                   color: Colors.red,
                   fontSize: 14.0,
-                )
+                ),
               ),
             ],
           ),
